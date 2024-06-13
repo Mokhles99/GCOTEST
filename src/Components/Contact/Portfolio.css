@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
+
+:root {
+  --primaryColor: hsl(228, 66%, 53%);
+  --primaryColorLight: hsl(223, 100%, 97%);
+  --primaryColorDark: hsl(216, 58%, 28%);
+  --gradientLight: rgb(114, 145, 255);
+  --bgColor: hsl(0, 0%, 100%);
+  --formColor: hsl(20, 42%, 87%);
+  --whiteColor: hsl(240, 25%, 97%);
+  --blackColor: hsl(0, 0%, 18%);
+  --blackColorLight: hsl(233, 3%, 51%);
+  --shadowColor: hsl(219, 63%, 95%);
+  --inputColor: hsl(330, 12%, 97%);
+  --cardColor: hsl(300, 3%, 94%);
+  --orangeColor: hsl(25, 84%, 53%);
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.6rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+  --borderRadius: 10px;
+}
+
+.Contact {
+  padding: 2rem;
+  margin-bottom: 8rem;
+}
+
+.secContainerPort {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+
+
+
+
+ /* .secContainerPort {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgDiv {
+  padding: 10px;
+}
+
+.imgDiv img {
+  width: 10%;
+  height: auto;
+} */
+
+
+
+.portfolioTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.portfolioTitle img {
+  max-width: 50%;
+  height: auto;
+}
+
+.imgDiv {
+  margin-bottom: 2rem;
+  display: flex !important;
+  justify-content: center;
+}
+
+.imgDiv img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Slick slider overrides */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+@media screen and (min-width: 480px) {
+  .Contact .secContainerPort {
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .Contact .secContainerPort {
+    flex-direction: row;
+    flex-flow: row-reverse;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+}

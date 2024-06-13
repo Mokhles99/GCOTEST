@@ -1,0 +1,91 @@
+.Footer {
+  margin-bottom: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.secContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerLogo {
+  margin-bottom: 1rem;
+}
+
+.logonav {
+  max-width: 150px;
+  height: auto;
+}
+
+.ideaImage {
+  margin-bottom: 1rem;
+}
+
+.idea {
+  max-width: 520px;
+  height: auto;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footerLinks a {
+  color: #fff;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footerLinks a:hover {
+  color: #ff0000; /* Red color on hover */
+  border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+.contactDetails {
+  margin-bottom: 1rem;
+}
+
+.contactDetails .email,
+.contactDetails .phone {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: none; /* Background color for the circle */
+  border: 2px solid #888; /* Gray border for the circle */
+  border-radius: 50%; /* Make the icon circular */
+  padding: 0.5rem; /* Adjust padding to make the circle larger */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem; /* Set width and height to make the circle uniform */
+  height: 2.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.icon:hover {
+  color: #ff0000; /* Red color on hover */
+  background-color: #fff; /* Change background color on hover */
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #ffffff !important;
+  text-decoration: underline;
+}

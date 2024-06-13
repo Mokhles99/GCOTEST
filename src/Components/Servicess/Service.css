@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap");
+
+.Contacttwo {
+  padding: 2rem;
+  margin-bottom: 40rem;
+}
+
+.secContainertwo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+}
+
+.imgDivtwo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.imgDivtwo img {
+  width: 60%;
+  height: auto;
+ 
+  cursor: pointer;
+}
+
+.serviceTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 18rem;
+}
+
+
+.serviceTitle img {
+  max-width: 50%;
+  height: auto;
+
+}
+
+.serviceContent {
+  position: absolute;
+  width: 250px;
+  padding: 2.2rem;
+  background-color:#2A2A2A;
+  color: white !important;
+  border-radius: 10px;
+  text-align: justify;
+  z-index: 1000;
+}
+
+.serviceContent p {
+  color: white !important;
+  font-size: small !important;
+}
+
+.serviceContentRight {
+  top: 13%;
+  left: 78%;
+  height: 390px;
+  width:239px
+}
+
+.serviceContentBottom {
+  top: 125%;
+  left: 22%;
+  width: 367px;
+  height: auto;
+}
+
+.serviceContentLeft {
+  top: 30%;
+  right: 45%;
+  height: 477px;
+}
+
+.serviceContentLefttwo {
+  top: 122%;
+  right: 81%;
+  height: auto;
+  width: 800px;
+}
+
+.service4-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.column {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+
+.service1Container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+
+}
+.service1{
+  width: 420px !important;
+
+}
+
+
+.service2 {
+  transform: translateY(10rem);
+  width: 420px !important;
+}
+
+.service3 {
+  transform: translateY(8rem) translateX(17rem);
+  width: 420px !important;
+}
+
+.service4 {
+  transform: translateY(35rem);
+  width: 420px !important;
+}
+
+.design{
+  width: 155px !important;
+  height: 23px !important;
+  transform: translateY(10rem);
+}
+.design2{
+  width: 198px !important;
+  height: 24px !important;
+  transform: translateY(10rem);
+}
+
+.marketing{
+  width: 180px !important;
+  transform: translateY(35rem);
+}
+
+.consulting{
+  width: 200px !important;
+  height: 24px !important;
+ 
+}
+.development{
+  width: 197px !important;
+  height: 29px !important;
+
+  transform: translateY(8rem) translateX(18rem);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .secContainertwo {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .serviceContent {
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .serviceContentRight, .serviceContentBottom, .serviceContentLeft, .serviceContentLefttwo {
+    top: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+    width: auto;
+    height: auto;
+  }
+
+  .service1, .service2, .service3, .service4 {
+    transform: none;
+    width: 100%;
+  }
+
+  .serviceTitle img {
+    max-width: 80%;
+  }
+  .service4-columns {
+    flex-direction: column;
+  }
+
+  .column {
+    margin: 0.5rem 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Contacttwo {
+    padding: 1rem;
+    margin-bottom: 20rem;
+    margin-left: 6rem;
+  }
+
+  .serviceContent {
+    font-size: 0.9rem;
+  }
+  .serviceContent p {
+    color: white !important;
+    font-size: 8px !important;
+  }
+  .serviceContentLefttwo {
+    padding: 1rem;
+  }
+
+  .serviceContentRight  {
+    top:25%;
+    height: 250px;
+    width:230px
+  }
+   .serviceContentBottom{
+    width:230px;
+    height: 250px;
+    top:25%;
+   }
+
+
+   .serviceContentLeft{
+    width:230px;
+    height: 250px;
+    top:25%;
+   }
+   .serviceContentLefttwo{
+    width:230px;
+    height: 320px;
+    top:25%;
+   }
+   .column li {
+  
+    font-size: 0.5rem;
+  }
+  .service4-columns {
+    flex-direction: column;
+  }
+
+  .column {
+    margin: 0.5rem 0;
+  }
+  .design{
+    transform: translateX(20%);
+  }
+  .development{
+    transform: translateX(20%);
+  }
+  .marketing{
+    transform: translateX(20%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .serviceContent {
+    font-size: 0.8rem;
+  }
+  .serviceContentLefttwo {
+    font-size: 0.8rem;
+  }
+
+}
